@@ -1,15 +1,15 @@
 {
-    "version": "0.12.0",
+    "version": "0.12.1",
     "description": "A mighty JavaScript engine",
     "homepage": "https://github.com/quickjs-ng/quickjs",
     "license": "MIT",
     "url": [
-        "https://github.com/quickjs-ng/quickjs/releases/download/v0.12.0/qjs-windows-x86_64.exe#/qjs.exe",
-        "https://github.com/quickjs-ng/quickjs/releases/download/v0.12.0/qjsc-windows-x86_64.exe#/qjsc.exe"
+        "https://github.com/quickjs-ng/quickjs/releases/download/v0.12.1/qjs-windows-x86_64.exe#/qjs.exe",
+        "https://github.com/quickjs-ng/quickjs/releases/download/v0.12.1/qjsc-windows-x86_64.exe#/qjsc.exe"
     ],
     "hash": [
-        "df3858a198cf6451b8183945bf22bd47ac22acbbcb5b454bc7cc2481afec4bfd",
-        "7bb1af915e75595e36d7a6e5b33bf41eb16fbddb38dc82a268e43f8aec375390"
+        "616c3e056209ec6ad32f8b2f00755be07b560a36dbcddf8e36f4b230957664f3",
+        "30fcfe36d2e91778c97e7723680278fea5a60b30535423a772453b6555f37e30"
     ],
     "bin": [
         "qjs.exe",
