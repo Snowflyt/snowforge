@@ -39,8 +39,8 @@ scoop install snowforge/<app_name>
 | [wren-cli](https://github.com/wren-lang/wren-cli)      | A command line tool for the Wren programming language                          |
 | [noxdir](https://github.com/crumbyte/noxdir)           | Terminal utility for visualizing file system usage.                            |
 | [ormolu](https://github.com/tweag/ormolu)              | A formatter for Haskell source code                                            |
-| [txiki.js](https://github.com/saghul/txiki.js)         | A tiny JavaScript runtime                                                      |
 | [typos-lsp](https://github.com/tekumara/typos-lsp)     | Source code spell checker for Visual Studio Code, Neovim and other LSP clients |
+| [livekit-cli](https://github.com/livekit/livekit-cli)  | Command line interface to LiveKit                                              |
 
 ## Contributing
 
