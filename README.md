@@ -40,7 +40,7 @@ scoop install snowforge/<app_name>
 | [noxdir](https://github.com/crumbyte/noxdir)           | Terminal utility for visualizing file system usage.                            |
 | [ormolu](https://github.com/tweag/ormolu)              | A formatter for Haskell source code                                            |
 | [typos-lsp](https://github.com/tekumara/typos-lsp)     | Source code spell checker for Visual Studio Code, Neovim and other LSP clients |
-| [livekit-cli](https://github.com/livekit/livekit-cli)  | Command line interface to LiveKit                                              |
+| [kimi-code](https://github.com/MoonshotAI/kimi-code)   | Kimi Code CLI  —  The Starting Point for Next-Gen Agents                       |
 
 ## Contributing
 
