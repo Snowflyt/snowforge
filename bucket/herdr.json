@@ -1,0 +1,22 @@
+{
+    "version": "0.7.5-preview.2026-07-29-44b3adb12552",
+    "description": "the runtime your coding agents live on",
+    "homepage": "https://github.com/herdrdev/herdr",
+    "license": "Apache-2.0",
+    "url": "https://github.com/herdrdev/herdr/releases/download/preview-2026-07-29-44b3adb12552/herdr-windows-x86_64.zip",
+    "hash": "ead450c21d31ea559289d45e4c60d14bb0a7ff0937668a309e74c6a3f9f6cca1",
+    "bin": "herdr.exe",
+    "checkver": {
+        "url": "https://herdr.dev/preview.json",
+        "regex": "\"base_version\"\\s*:\\s*\"([^\"]+)\"[\\s\\S]*?\"build_id\"\\s*:\\s*\"([^\"]+)\"",
+        "replace": "${1}-preview.${2}"
+    },
+    "autoupdate": {
+        "url": "https://github.com/herdrdev/herdr/releases/download/preview-$match2/herdr-windows-x86_64.zip",
+        "hash": {
+            "mode": "json",
+            "url": "https://herdr.dev/preview.json",
+            "jsonpath": "$.assets.['windows-x86_64'].sha256"
+        }
+    }
+}

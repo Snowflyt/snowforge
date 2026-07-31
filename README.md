@@ -29,18 +29,18 @@ scoop install snowforge/<app_name>
 
 ## Featured Apps
 
-| Manifest                                               | Description                                                                    |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| [evcxr](https://github.com/evcxr/evcxr)                | A Rust REPL                                                                    |
-| [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side                                     |
-| [gfold](https://github.com/nickgerace/gfold)           | CLI tool to help keep track of your Git repositories, written in Rust          |
-| [io](https://iolanguage.org/)                          | A programming language focused on expressiveness through simplicity            |
-| [umka](https://github.com/vtereshkov/umka-lang)        | A statically typed embeddable scripting language                               |
-| [wren-cli](https://github.com/wren-lang/wren-cli)      | A command line tool for the Wren programming language                          |
-| [noxdir](https://github.com/crumbyte/noxdir)           | Terminal utility for visualizing file system usage.                            |
-| [ormolu](https://github.com/tweag/ormolu)              | A formatter for Haskell source code                                            |
-| [typos-lsp](https://github.com/tekumara/typos-lsp)     | Source code spell checker for Visual Studio Code, Neovim and other LSP clients |
-| [kimi-code](https://github.com/MoonshotAI/kimi-code)   | Kimi Code CLI  —  The Starting Point for Next-Gen Agents                       |
+| Manifest                                               | Description                                                           |
+| ------------------------------------------------------ | --------------------------------------------------------------------- |
+| [evcxr](https://github.com/evcxr/evcxr)                | A Rust REPL                                                           |
+| [evil-helix](https://github.com/usagi-flow/evil-helix) | Bringing the Helix editor to the evil side                            |
+| [gfold](https://github.com/nickgerace/gfold)           | CLI tool to help keep track of your Git repositories, written in Rust |
+| [io](https://iolanguage.org/)                          | A programming language focused on expressiveness through simplicity   |
+| [umka](https://github.com/vtereshkov/umka-lang)        | A statically typed embeddable scripting language                      |
+| [wren-cli](https://github.com/wren-lang/wren-cli)      | A command line tool for the Wren programming language                 |
+| [noxdir](https://github.com/crumbyte/noxdir)           | Terminal utility for visualizing file system usage.                   |
+| [ormolu](https://github.com/tweag/ormolu)              | A formatter for Haskell source code                                   |
+| [herdr](https://github.com/herdrdev/herdr)             | the runtime your coding agents live on                                |
+| [kimi-code](https://github.com/MoonshotAI/kimi-code)   | Kimi Code CLI — The Starting Point for Next-Gen Agents                |
 
 ## Contributing
 
