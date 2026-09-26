@@ -1,22 +1,13 @@
 {
-    "version": "0.9.1-preview.2026-09-21-0ff0f27e2226",
+    "version": "0.9.1",
     "description": "the runtime your coding agents live on",
     "homepage": "https://github.com/herdrdev/herdr",
     "license": "Apache-2.0",
-    "url": "https://github.com/herdrdev/herdr/releases/download/preview-2026-09-21-0ff0f27e2226/herdr-windows-x86_64.zip",
-    "hash": "0bfd610f32becb5f299bb7bbcb48e4e6d07c1f57e41601ff3c0d7c99600b586d",
+    "url": "https://github.com/herdrdev/herdr/releases/download/v0.9.1/herdr-windows-x86_64.zip",
+    "hash": "04ce380cac5af27bfcf75d0951ac49b7afe4c984aee8852985806d4f71f93a6e",
     "bin": "herdr.exe",
-    "checkver": {
-        "url": "https://herdr.dev/preview.json",
-        "regex": "\"base_version\"\\s*:\\s*\"([^\"]+)\"[\\s\\S]*?\"build_id\"\\s*:\\s*\"([^\"]+)\"",
-        "replace": "${1}-preview.${2}"
-    },
+    "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/herdrdev/herdr/releases/download/preview-$match2/herdr-windows-x86_64.zip",
-        "hash": {
-            "mode": "json",
-            "url": "https://herdr.dev/preview.json",
-            "jsonpath": "$.assets.['windows-x86_64'].sha256"
-        }
+        "url": "https://github.com/herdrdev/herdr/releases/download/v$version/herdr-windows-x86_64.zip"
     }
 }
