@@ -1,10 +1,10 @@
 {
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "Terminal utility for visualizing file system usage.",
     "homepage": "https://github.com/crumbyte/noxdir",
     "license": "MIT",
-    "url": "https://github.com/crumbyte/noxdir/releases/download/v1.2.2/noxdir-v1.2.2-Windows_x86_64.zip",
-    "hash": "9a5b90c421c59a3c91b8e8a7314551433d7714ae734f8600f3c1cc1f000d5251",
+    "url": "https://github.com/crumbyte/noxdir/releases/download/v1.2.3/noxdir-v1.2.3-Windows_x86_64.zip",
+    "hash": "ac167d14ed9001fd829813079c6386c4add7148da7a54ea94fc975c032fb39ac",
     "bin": "noxdir.exe",
     "checkver": "github",
     "autoupdate": {
